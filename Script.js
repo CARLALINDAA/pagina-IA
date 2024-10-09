@@ -5,28 +5,37 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas=[
     {
-        enunciado:"Assim que saiu da escola Gabriel se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, o chat também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento de Gabriel?",
-
+        enunciado:"Carla está na aula de história e sua professora a fez a seguinte pergunta, em que ano o Brsil foi descoberto?",
             alternativas: [
-                "isso é assustador!",
-                "isso é maravilhoso!"
+                "Em 1500",
+                "Em 1505",
             ]
 
-    }
+    },
 
     {
-        enunciado:"Com a descoberta desta tecnologia uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre IA. No fim de uma aula ela pede que Gabriel escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude Gabriel toma?",
-
+        enunciado:"A professora te fez a pergunta que garante 5 pontos na sua média, qual o primeiro governante do Brasil?",
             alternativas: [
-                "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                "Tomé de Souza.",
+                "Duarte da Costa.",
 
             ]
     },
     {
 
-            enunciado:""
+        enunciado:"Muito bem você é bom nisso, saberia responder também qual a duração da guerra dos farrapos? ",
+             alternativas: [
+                "De 1835 a 1845.",
+                "De 1845 a 1851.",
 
+        ]
 
+    },
+    {
+        enunciado:"E por fim a pergunta do milhão, qual presidente do brasil morreu antes de assumir seu mandato?.",
+            alternativas: [
+                "Tancredo De Almeida Neves.",
+                "Joaquim José Da Silva Xavier (Tiradentes).",
+            ]
     }
 ]
